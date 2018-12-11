@@ -87,6 +87,9 @@ body {
       width: 100%;
       background-color: var(--color-grey-light-3);
       transition: all .2s; }
+    .search__input::-webkit-input-plaxceholder {
+      font-weight: 100;
+      color: var(--color-grey-light-4); }
   .search__input:focus + .search__button {
     background-color: var(--color-grey-light-3); }
   .search__button {
