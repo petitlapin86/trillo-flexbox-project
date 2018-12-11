@@ -19,8 +19,12 @@ display: flex; //using flex box
 
 .sidebar {
 background-color: var(--color-grey-dark-3);
+
+flex: 0 0 18%; //stands for flex grow, flex shrink, and flex basis;
 }
 
 .hotel-view {
+ background-color: orange;
 
+ flex: 1; //the element should grow as much as it can in the available space
 }
