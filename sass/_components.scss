@@ -77,6 +77,8 @@ justify-content: center; //centers main axis
     padding: 0 2rem;
     cursor: pointer;
     height: 100%;
+    display: flex;
+    align-items: center; //aligns items vertically
   }
 
   & > *:hover { //selects all of the direct children
@@ -84,17 +86,22 @@ justify-content: center; //centers main axis
   }
 
   &__icon-box {
-    display: flex;
-    align-items: center; //aligns items vertically 
+
   }
 
   &__icon {
     height: 2.25rem;
     width: 2.25rem;
+    fill: var(--color-grey-dark-2);
   }
 
   &__notification {
-
+    font-size: .8rem;
+    height: 1.75rem;
+    width: 1.75rem;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    color: #fff;
   }
 
   &__user {
