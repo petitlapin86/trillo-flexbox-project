@@ -68,6 +68,7 @@ justify-content: center; //centers main axis
 
 .user-nav {
   background-color: green;
+  align-self: stretch;
   display: flex;
   align-items: center;
 
@@ -75,6 +76,7 @@ justify-content: center; //centers main axis
   & > * { //selects all of the direct children
     padding: 0 2rem;
     cursor: pointer;
+    height: 100%;
   }
 
   & > *:hover { //selects all of the direct children
@@ -82,7 +84,8 @@ justify-content: center; //centers main axis
   }
 
   &__icon-box {
-
+    display: flex;
+    align-items: center; //aligns items vertically 
   }
 
   &__icon {
