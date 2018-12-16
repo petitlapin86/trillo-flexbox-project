@@ -18,10 +18,11 @@
 
           <form action="#" class="search">
             <input type="text" class="search__input" placeholder="Search Hotels">
-            <button class="search__button"></button>
+            <button class="search__button">
             <svg class="search__icon">
               <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
             </svg>
+            </button>
           </form>
 
           <nav class="user-nav">
@@ -42,14 +43,21 @@
               <img src="img/user.jpg" alt="User Photo" class="user-nav__user-photo">
               <span class="user-nav__user-name">Paige</span>
             </div>
-
           </nav>
-
         </header>
-        <div class"content">
 
+
+        <div class"content">
           <nav class="sidebar">
-            Navigation
+            <ul class="side-nav">
+              <li class="side-nav__item">
+                <a href="#" class="side-nav__link">
+                  <svg class="side-nav__icon">
+                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </nav>
 
           <main class="hotel-view">
