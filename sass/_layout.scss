@@ -23,9 +23,13 @@
 .sidebar {
   background-color: var(--color-grey-dark-3);
   flex: 0 0 18%; //stands for flex grow, flex shrink, and flex basis;
+  display: flex;
+  flex-direction: column; //this changes the cross axis to vertical
+  justify-content: space-between;
 }
 
 .hotel-view {
    background-color: orange;
    flex: 1; //the element should grow as much as it can in the available space
+   height: 80rem;
 }
