@@ -68,6 +68,18 @@ justify-content: center; //centers main axis
 
 .user-nav {
   background-color: green;
+  display: flex;
+  align-items: center;
+
+
+  & > * { //selects all of the direct children
+    padding: 0 2rem;
+    cursor: pointer;
+  }
+
+  & > *:hover { //selects all of the direct children
+    background-color: var(--color-grey-dark-2);
+  }
 
   &__icon-box {
 
